@@ -1,0 +1,45 @@
+{
+  "question": "Is the character primarily known through social media?",
+  "yes": {
+    "question": "Is the character famous for a viral challenge or dance trend?",
+    "yes": {
+      "question": "Is the character part of a K-pop group?",
+      "yes": {
+        "question": "Is the character from BTS?",
+        "yes": {
+          "question": "Is the character Jungkook?",
+          "yes": { "result": "Your character is Jungkook from BTS!" },
+          "no": {
+            "question": "Is the character Jimin?",
+            "yes": { "result": "Your character is Jimin from BTS!" },
+            "no": { "result": "Your character is another BTS member!" }
+          }
+        },
+        "no": { "result": "Your character is a K-pop influencer outside BTS!" }
+      },
+      "no": {
+        "question": "Is the character an American TikTok dancer?",
+        "yes": { "result": "Your character is a top American TikTok dancer!" },
+        "no": { "result": "Your character is a different social media influencer!" }
+      }
+    },
+    "no": {
+      "question": "Is the character a famous YouTuber?",
+      "yes": { "result": "Your character is a renowned YouTuber!" },
+      "no": { "result": "Your character is a social media personality of another kind!" }
+    }
+  },
+  "no": {
+    "question": "Is the character a professional athlete?",
+    "yes": { "result": "Your character is a famous athlete!" },
+    "no": {
+      "question": "Is the character known for acting in films or TV?",
+      "yes": { "result": "Your character is a well-known actor/actress!" },
+      "no": {
+        "question": "Is the character famous as a singer?",
+        "yes": { "result": "Your character is a celebrated singer!" },
+        "no": { "result": "Your character is unique and hard to categorize!" }
+      }
+    }
+  }
+}
